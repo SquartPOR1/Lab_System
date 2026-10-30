@@ -10,7 +10,7 @@
 
 Repository · Issues
 
-!Status !Domain
+!Status !Domain!
 
 </div>
 
