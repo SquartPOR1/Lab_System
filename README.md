@@ -2,50 +2,118 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=190&color=0:071A2B,50:075985,100:0891B2&text=LAB%20SYSTEM&fontColor=FFFFFF&fontSize=58&fontAlignY=40&animation=fadeIn&desc=Clinical%20Laboratory%20Information%20Management%20System&descSize=14&descAlignY=65" width="100%" />
 
-<br/>
-
 <img src="https://readme-typing-svg.demolab.com?font=Inter&size=16&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=550&lines=Modern+Laboratory+Management;Organized+Workflows;Reliable+Information" />
-
-<br/>
 
 Repository · Issues
 
-!Status !Domain!
-
 </div>
 
-01. Introduction
+About the Project
 
-Lab System is a web-based Clinical Laboratory Information Management System designed to organize and streamline laboratory operations.
+A centralized digital platform designed to simplify and organize clinical laboratory operations.
 
-The project aims to centralize essential laboratory processes, including patient registration, test requests, specimen tracking, result management, and report generation.
+Lab System aims to improve the management of patient information, laboratory requests, specimens, test results, and reports through a structured and user-friendly environment.
 
-Objective: Improve laboratory workflow organization, minimize manual processes, and provide a more efficient digital working environment.
+System Modules
 
-02. System Modules
+<table>
+<tr>
+<td width="50%" valign="top">
 
-The proposed system is divided into the following modules:
+01. Patient Management
 
-Module	Description
-Patient Management	Patient registration and records
-Test Management	Laboratory requests and examinations
-Specimen Management	Specimen collection and tracking
-Results Management	Result entry, review, and validation
-Report Generation	Laboratory report preparation
-User Management	Accounts and access permissions
-Dashboard	Overview of laboratory activities
-03. Laboratory Departments
+Organize patient registration, personal information, and laboratory records.
 
-The system is designed to accommodate multiple laboratory sections:
+</td>
+<td width="50%" valign="top">
+
+02. Test Management
+
+Manage laboratory requests, test catalogs, and examination workflows.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+03. Specimen Management
+
+Track specimen collection, reception, and processing.
+
+</td>
+<td width="50%" valign="top">
+
+04. Results Management
+
+Record, review, validate, and manage laboratory results.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+05. Report Generation
+
+Prepare structured laboratory reports and result summaries.
+
+</td>
+<td width="50%" valign="top">
+
+06. User Management
+
+Organize user accounts and access permissions.
+
+</td>
+</tr>
+</table>
+
+Laboratory Departments
+
+<table>
+<tr>
+<td align="center" width="33%">
 
 Hematology
+
+</td>
+<td align="center" width="33%">
+
 Clinical Chemistry
-Immunology and Serology
+
+</td>
+<td align="center" width="33%">
+
+Immunology
+
+</td>
+</tr>
+<tr>
+<td align="center">
+
 Microbiology
-Histopathology and Cytology
+
+</td>
+<td align="center">
+
+Histopathology
+
+</td>
+<td align="center">
+
 Blood Bank
+
+</td>
+</tr>
+<tr>
+<td colspan="3" align="center">
+
 Urinalysis
-04. Laboratory Workflow
+
+</td>
+</tr>
+</table>
+
+Laboratory Workflow
 
 <div align="center">
 
@@ -74,7 +142,7 @@ flowchart TD
 
 </div>
 
-05. Technology Stack
+Technology Stack
 
 <div align="center">
 
@@ -82,83 +150,212 @@ flowchart TD
 
 </div>
 
-Component	Technology
-Frontend	React
-Programming Language	TypeScript
-Build Tool	Vite
-Styling	Tailwind CSS
-Backend	Planned
-Database	Planned
-06. Project Structure
-text
-Lab_System/
-│
-├── frontend/
-│
-├── SYSTEM_PROPOSAL.md
-├── frontend.md
-├── BACKEND_FOLLOW_UP.md
-│
-└── README.md
+<table>
+<tr>
+<td width="50%">
 
-07. Installation
-Prerequisites
-Node.js
-npm
-Git
-Setup
+Frontend
 
-Step 1 — Clone the repository
+React, TypeScript, Vite
+
+</td>
+<td width="50%">
+
+Styling
+
+Tailwind CSS
+
+</td>
+</tr>
+<tr>
+<td>
+
+Backend
+
+Planned
+
+</td>
+<td>
+
+Database
+
+Planned
+
+</td>
+</tr>
+</table>
+
+Getting Started
+
+Requirements: Node.js, npm, and Git.
 
 bash
+# Clone repository
 git clone https://github.com/SquartPOR1/Lab_System.git
 
-
-Step 2 — Navigate to the frontend
-
-bash
+# Navigate to frontend
 cd Lab_System/frontend
 
-
-Step 3 — Install dependencies
-
-bash
+# Install dependencies
 npm install
 
-
-Step 4 — Run the development server
-
-bash
+# Start development server
 npm run dev
 
 
-Open the local development URL provided in your terminal.
+Open the local development URL shown in your terminal.
 
-08. Development Roadmap
-Development Phase	Status
-System Proposal	Completed
-Frontend Development	In Progress
-Frontend Refinement	Planned
-Backend Development	Planned
-Database Integration	Planned
-Authentication and Authorization	Planned
-Laboratory Modules	Planned
-Report Generation	Planned
-Testing and Deployment	Planned
-09. Documentation
+Development Roadmap
 
-Additional technical documentation is available in the repository:
+<table>
+<tr>
+<td width="65%">
 
 System Proposal
+
+</td>
+<td align="right">
+
+Completed
+
+</td>
+</tr>
+<tr>
+<td>
+
+Frontend Development
+
+</td>
+<td align="right">
+
+In Progress
+
+</td>
+</tr>
+<tr>
+<td>
+
+Frontend Refinement
+
+</td>
+<td align="right">
+
+Planned
+
+</td>
+</tr>
+<tr>
+<td>
+
+Backend Development
+
+</td>
+<td align="right">
+
+Planned
+
+</td>
+</tr>
+<tr>
+<td>
+
+Database Integration
+
+</td>
+<td align="right">
+
+Planned
+
+</td>
+</tr>
+<tr>
+<td>
+
+Authentication and Authorization
+
+</td>
+<td align="right">
+
+Planned
+
+</td>
+</tr>
+<tr>
+<td>
+
+Laboratory Modules and Reporting
+
+</td>
+<td align="right">
+
+Planned
+
+</td>
+</tr>
+<tr>
+<td>
+
+Testing and Deployment
+
+</td>
+<td align="right">
+
+Planned
+
+</td>
+</tr>
+</table>
+
+Documentation
+
+<table>
+<tr>
+<td>
+
+System Proposal
+
+Project objectives, scope, and system planning.
+
+</td>
+<td align="center">
+
+View →
+
+</td>
+</tr>
+<tr>
+<td>
+
 Frontend Documentation
+
+Frontend implementation details.
+
+</td>
+<td align="center">
+
+View →
+
+</td>
+</tr>
+<tr>
+<td>
+
 Backend Follow-up
-10. Project Information
 
-Current Status: Under Development
+Backend development planning.
 
-The project is currently focused on frontend implementation. Backend services, database integration, and additional laboratory functionalities are planned for future development.
+</td>
+<td align="center">
 
-Clinical Disclaimer: This is a development prototype and is not approved for actual clinical use. Only synthetic data should be used during development and testing.
+View →
+
+</td>
+</tr>
+</table>
+
+Project Information
+Development Status: This project is currently under development. The current focus is frontend implementation, with backend and database integration planned for future phases.
+Clinical Disclaimer: This prototype is not approved for actual clinical use. Use synthetic data during development and testing.
 
 <div align="center">
 
