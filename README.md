@@ -1,83 +1,42 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=180&color=0:071A2B,50:075985,100:0891B2&text=LAB%20SYSTEM&fontColor=FFFFFF&fontSize=58&fontAlignY=42&animation=fadeIn&desc=Clinical%20Laboratory%20Information%20Management%20System&descSize=14&descAlignY=65" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=190&color=0:071A2B,50:075985,100:0891B2&text=LAB%20SYSTEM&fontColor=FFFFFF&fontSize=58&fontAlignY=40&animation=fadeIn&desc=Clinical%20Laboratory%20Information%20Management%20System&descSize=14&descAlignY=65" width="100%" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=16&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Modern+Laboratory+Management.;Organized+Workflows.+Reliable+Information.;A+Smarter+Digital+Laboratory." />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&size=16&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=550&lines=Modern+Laboratory+Management;Organized+Workflows;Reliable+Information" />
 
 <br/>
 
-![Repository](https://img.shields.io/badge/Repository-Lab_System-0F172A?style=flat-square&logo=github) !Status !Domain
+Repository · Issues
+
+!Status !Domain
 
 </div>
 
-Overview
+01. Introduction
 
 Lab System is a web-based Clinical Laboratory Information Management System designed to organize and streamline laboratory operations.
 
-The project aims to provide a centralized platform for managing patient information, laboratory requests, specimens, test results, and reports.
+The project aims to centralize essential laboratory processes, including patient registration, test requests, specimen tracking, result management, and report generation.
 
-Its primary goal is to improve workflow organization, reduce manual processes, and support efficient laboratory management.
+Objective: Improve laboratory workflow organization, minimize manual processes, and provide a more efficient digital working environment.
 
-Core Modules
+02. System Modules
 
-<table>
-<tr>
-<td width="50%" valign="top">
+The proposed system is divided into the following modules:
 
-01 / Patient Management
+Module	Description
+Patient Management	Patient registration and records
+Test Management	Laboratory requests and examinations
+Specimen Management	Specimen collection and tracking
+Results Management	Result entry, review, and validation
+Report Generation	Laboratory report preparation
+User Management	Accounts and access permissions
+Dashboard	Overview of laboratory activities
+03. Laboratory Departments
 
-Organize patient information and laboratory records.
-
-</td>
-<td width="50%" valign="top">
-
-02 / Test Management
-
-Manage laboratory requests and examinations.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-03 / Specimen Management
-
-Record and track laboratory specimens.
-
-</td>
-<td width="50%" valign="top">
-
-04 / Results Management
-
-Review, validate, and manage test results.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-05 / Report Generation
-
-Prepare organized laboratory reports.
-
-</td>
-<td width="50%" valign="top">
-
-06 / User Management
-
-Manage accounts and access permissions.
-
-</td>
-</tr>
-</table>
-
-Modules describe the proposed system functionality and may not all be implemented yet.
-
-Laboratory Departments
-
-The proposed system supports multiple laboratory sections:
+The system is designed to accommodate multiple laboratory sections:
 
 Hematology
 Clinical Chemistry
@@ -86,7 +45,7 @@ Microbiology
 Histopathology and Cytology
 Blood Bank
 Urinalysis
-Workflow
+04. Laboratory Workflow
 
 <div align="center">
 
@@ -103,8 +62,8 @@ flowchart TD
 
     A --> B --> C --> D --> E --> F --> G --> H
 
-    style A fill:#0C4A6E,color:#fff,stroke:#38BDF8
-    style B fill:#0C4A6E,color:#fff,stroke:#38BDF8
+    style A fill:#075985,color:#fff,stroke:#38BDF8
+    style B fill:#075985,color:#fff,stroke:#38BDF8
     style C fill:#164E63,color:#fff,stroke:#22D3EE
     style D fill:#164E63,color:#fff,stroke:#22D3EE
     style E fill:#134E4A,color:#fff,stroke:#2DD4BF
@@ -115,7 +74,7 @@ flowchart TD
 
 </div>
 
-Technology Stack
+05. Technology Stack
 
 <div align="center">
 
@@ -125,12 +84,12 @@ Technology Stack
 
 Component	Technology
 Frontend	React
-Language	TypeScript
+Programming Language	TypeScript
 Build Tool	Vite
 Styling	Tailwind CSS
 Backend	Planned
 Database	Planned
-Project Structure
+06. Project Structure
 text
 Lab_System/
 │
@@ -142,57 +101,68 @@ Lab_System/
 │
 └── README.md
 
-Getting Started
+07. Installation
+Prerequisites
+Node.js
+npm
+Git
+Setup
 
-Requirements: Node.js, npm, and Git.
-
-Clone the repository:
+Step 1 — Clone the repository
 
 bash
 git clone https://github.com/SquartPOR1/Lab_System.git
+
+
+Step 2 — Navigate to the frontend
+
+bash
 cd Lab_System/frontend
 
 
-Install dependencies:
+Step 3 — Install dependencies
 
 bash
 npm install
 
 
-Start the development server:
+Step 4 — Run the development server
 
 bash
 npm run dev
 
 
-Open the local development URL displayed in your terminal.
+Open the local development URL provided in your terminal.
 
-Development Roadmap
-Milestone	Status
+08. Development Roadmap
+Development Phase	Status
 System Proposal	Completed
 Frontend Development	In Progress
 Frontend Refinement	Planned
 Backend Development	Planned
 Database Integration	Planned
-Authentication	Planned
+Authentication and Authorization	Planned
 Laboratory Modules	Planned
-Reporting System	Planned
+Report Generation	Planned
 Testing and Deployment	Planned
-Documentation
+09. Documentation
+
+Additional technical documentation is available in the repository:
+
 System Proposal
 Frontend Documentation
 Backend Follow-up
-Project Status
+10. Project Information
 
-Currently under development, with frontend implementation as the initial focus.
+Current Status: Under Development
 
-Backend services, database integration, and additional laboratory functionalities are planned for future development.
+The project is currently focused on frontend implementation. Backend services, database integration, and additional laboratory functionalities are planned for future development.
 
-Disclaimer: This is a development prototype and is not intended for actual clinical use. Use synthetic data for development and testing.
+Clinical Disclaimer: This is a development prototype and is not approved for actual clinical use. Only synthetic data should be used during development and testing.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0EA5E9,50:14B8A6,100:0EA5E9" width="70%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0891B2,50:10B981,100:0891B2" width="70%" />
 
 LAB SYSTEM
 
@@ -200,6 +170,6 @@ Better organization. Smarter laboratory workflows.
 
 Developed by SquartPOR1
 
-<a href="https://github.com/SquartPOR1/Lab_System">View Repository</a>
+View Repository
 
 </div>
